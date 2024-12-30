@@ -7,6 +7,8 @@ class HomePage:
         self.page = page
         page.title = "Eleição 2024"
         page.horizontal_alignment = ft.CrossAxisAlignment.STRETCH
+        page.window.resizable = False
+        page.window.maximizable = False
         page.window.height = 600
         page.window.width = 700
         page.bgcolor = ft.Colors.WHITE

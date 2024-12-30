@@ -1,9 +1,9 @@
-from services.database import ELEITORES, ELEITORES_VOTANTES
+from services.database import ELEITORES
 import sqlite3
 import requests
 import json
 
-conexao = sqlite3.connect("desenvolvimento2.db", check_same_thread=False)
+conexao = sqlite3.connect("desenvolvimento.db", check_same_thread=False)
 cursor = conexao.cursor()
 
 def consulta_eleitor(num_titulo):

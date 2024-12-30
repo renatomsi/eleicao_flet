@@ -17,13 +17,8 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-Criando banco de dados da aplicação
-```
-python setup.py
-```
-
 Rodando aplicação flet
 
 ```
-flet run [app_directory]
+flet run 
 ```

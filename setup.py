@@ -3,7 +3,7 @@ import sqlite3
 import requests
 import json
 
-conexao = sqlite3.connect("desenvolvimento2.db", check_same_thread=False)
+conexao = sqlite3.connect("desenvolvimento.db", check_same_thread=False)
 cursor = conexao.cursor()
 
 
@@ -52,3 +52,5 @@ def create_banco_dados():
 
     except Exception as err:
         print("Não foi possivel Criar banco de dados!\n", err)
+
+create_banco_dados()
